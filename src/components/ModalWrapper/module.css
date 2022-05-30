@@ -1,0 +1,27 @@
+.modal-wrapper {
+	border: none;
+	border-radius: 15px;
+	font-family: 'Mulish', sans-serif;
+}
+.modal-wrapper .decoration {
+	background: linear-gradient(270deg, #E73D7A 34.95%, #A9019C 75.08%);
+	height: 85px;
+	width: 100%;
+	border-radius: 15px;
+	position: absolute;
+	top: -15px;
+	z-index: -1;
+}
+.modal-wrapper .title {
+	background: #E8FCFF;
+	padding: .75rem 1.5rem;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-weight: bold;
+}
+.modal-wrapper .body {
+	padding: 1.5rem;
+}
+.modal-wrapper .form-control {
+	border-radius: 8px;
+}

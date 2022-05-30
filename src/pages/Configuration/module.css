@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@100&display=swap");
+
+.wrap-tab-pengaturan {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.wrap-tab-pengaturan a {
+  position: relative;
+  margin-right: 30px;
+}
+
+.wrap-tab-pengaturan a.active span {
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: -8px;
+  height: 4px;
+  width: 100%;
+  background-color: #a9019c;
+}
+
+.wrap-tab-pengaturan a {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #62d8e8;
+  margin: 0px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.wrap-tab-pengaturan a.active {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #545454;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+/* .wrap-tab-pengaturan {
+  position: relative;
+  padding: 0px;
+  margin-right: 30px;
+}
+
+.wrap-tab-pengaturan.active span {
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #a9019c;
+}
+
+.wrap-tab-pengaturan:hover {
+  cursor: pointer;
+}
+
+.wrap-tab-pengaturan .title-tab {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #62d8e8;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.wrap-tab-pengaturan.active .title-tab {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #545454;
+  margin: 0px;
+  margin-bottom: 5px;
+} */

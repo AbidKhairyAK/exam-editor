@@ -1,0 +1,102 @@
+#soal-ujian .section-wrapper {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 1rem;
+}
+#soal-ujian .normal-width {
+	width: auto;
+}
+#soal-ujian .form-control {
+	border-radius: 8px;
+}
+#soal-ujian .question-type-badge {
+	border-radius: 4px;
+	background: #F5F5F5;
+	border: 1px solid #CFCFCF;
+	padding: 6px 10px;
+	width: 12rem;
+	font-weight: 600;
+	color: #777;
+}
+#soal-ujian .option-badge {
+	border: 2px solid #E48E28;
+	border-radius: 8px;
+	background: #FFFCD2;
+	padding: 6px 10px;
+}
+#soal-ujian .editor-button {
+	border: 2px solid #008A58 !important;
+}
+#soal-ujian .question-wrapper {
+	overflow-y: scroll;
+	max-height: calc(100vh * 4 / 5);
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 0 1rem 1rem 1rem;
+}
+#soal-ujian .question-item {
+	border: 1px solid #018CDB;
+	background: #E7F6FF;
+	border-radius: 8px;
+	padding: 1rem;
+}
+#soal-ujian .question-item .form-control {
+	border: 1px solid #018CDB;
+	padding: 0;
+	margin: 0;
+}
+#soal-ujian .question-item .question-editor .cke_editable {
+	min-height: 7rem;
+}
+#soal-ujian .question-item .cke_editable {
+	padding: 12px 12px .1px;
+}
+#soal-ujian .question-item :where(.form-checkbox, .form-radio) {
+	transform: scale(1.5);
+}
+#soal-ujian .question-item .question-item-width {
+	width: 82.5%;
+}
+#soal-ujian .question-item .question-order {
+	width: 2.75rem;
+	height: 2.75rem;
+}
+#soal-ujian .question-item .question-action {
+	width: 1.95rem;
+	height: 2rem;
+	align-self: flex-end;
+	position: relative;
+	bottom: 6px;
+	transform: rotate(-45deg);
+}
+#soal-ujian .question-item .question-remove {
+	width: 1.9rem;
+	height: 1rem;
+	cursor: pointer;
+	overflow: hidden;
+	transform-origin: bottom;
+	transition: transform ease .25s;
+}
+#soal-ujian .question-item .question-remove img {
+	transform: rotate(45deg);
+	position: relative;
+	top: 2px;
+	left: 4px;
+}
+#soal-ujian .question-item .question-add {
+	width: 1.9rem;
+	height: 1rem;
+	cursor: pointer;
+	overflow: hidden;
+	transform-origin: top;
+	transition: transform ease .25s;
+}
+#soal-ujian .question-item .question-add img {
+	transform: rotate(45deg);
+	position: relative;
+	bottom: 9px;
+	left: 4px;
+}
+#soal-ujian .question-item :where(.question-add, .question-remove):hover {
+	transform: scale(1.2);
+}
