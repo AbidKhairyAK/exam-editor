@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CKEditor from "ckeditor4-react"
+import { CKEditor } from "ckeditor4-react"
 
 import ModalWrapper from './ModalWrapper/index.js'
 import { editorToolbar } from '../constants/editor'
@@ -126,7 +126,7 @@ class QuestionEditorModal extends Component {
 		>
 			<form onSubmit={this.handleFormSubmit}>
 				<CKEditor
-					data={this.state.editorContent}
+					initData={this.state.editorContent}
 					onChange={this.handleChange}
 					config={{ height: '50vh', toolbar: editorToolbar }}
 				/>

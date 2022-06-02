@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { toast } from "react-toastify"
 import qs from "qs"
-import CKEditor from "ckeditor4-react"
+import { CKEditor } from "ckeditor4-react"
 
 import './module.css'
 import axios from '../../axios'
@@ -394,7 +394,7 @@ function QuestionWrapper ({ question, orderNumber, handleInput, handleAction, ca
         <CKEditor
           type="inline"
           config={{ toolbar: editorToolbar }}
-          data={question.question_text}
+          initData={question.question_text}
           onChange={handleQuestionText}
           onBlur={cacheQuestionsData}
         />
@@ -441,7 +441,7 @@ function QuestionSingle ({ question, orderNumber, handleInput, handleAction, cac
           <CKEditor
             type="inline"
             config={{ toolbar: editorToolbar }}
-            data={option.option_text}
+            initData={option.option_text}
             onChange={handleOptionText(optionIndex)}
             onBlur={cacheQuestionsData}
           />
@@ -486,7 +486,7 @@ function QuestionMulti ({ question, orderNumber, handleInput, handleAction, cach
           <CKEditor
             type="inline"
             config={{ toolbar: editorToolbar }}
-            data={option.option_text}
+            initData={option.option_text}
             onChange={handleOptionText(optionIndex)}
             onBlur={cacheQuestionsData}
           />
